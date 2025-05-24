@@ -4,6 +4,10 @@ import Form from "./components/Form";
 import PackagingList from "./components/PackagingList";
 import Stats from "./components/Stats";
 
+/**
+ *
+ * @returns {JSX.Element} The main application component.
+ */
 export default function App() {
   const [tripItems, setTripItems] = useState([]);
   return (
