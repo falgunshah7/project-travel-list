@@ -6,7 +6,7 @@ import Stats from "./components/Stats";
 
 /**
  *
- * @returns {JSX.Element} The main application component.
+ * @returns {JSX.Element}
  */
 export default function App() {
   const [tripItems, setTripItems] = useState([]);
